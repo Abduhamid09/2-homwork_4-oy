@@ -1,0 +1,13 @@
+.box {
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: crimson;
+  font-size: 50px;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+}
+.box p {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
