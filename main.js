@@ -41,10 +41,38 @@ if (b % 5 == 0) {
 
 
 
-let c = parseInt(Math.random() * 90,)
-let d = parseInt(Math.random() * 90,)
-let f = Math.abs(c)
-let e = Math.abs(d)
-console.log('f soni 5 soniga yaqinroq'); 
+let e = parseInt(Math.random() * 20)
+let c = parseInt(Math.random() * 20)
+let difference1 = e-5
+let difference2 = c-5
+difference1 = Math.abs(difference1)
+difference2 = Math.abs(difference2)
+console.log("e= " + e + " c= " + c)
+if (e > 5) {
+  if (e > 5) {
+    if (e > c) {
+      console.log(c + " soni 5ga yaqinroq")
+    } else {
+      console.log(e + " soni 5ga yaqinroq")
+    }
+  } else if(difference1 > difference2) {
+    console.log(c + " soni 5ga yaqinroq")
+  
+}else{
+  console.log(e + " soni 5ga yaqinroq")
+}
+} else if(e>5){
+if(difference1 > difference2) {
+  console.log(c + " soni 5ga yaqinroq")
+}else if(difference1 < difference2){
+  console.log(e + " soni 5ga yaqinroq")
+}else{
+  console.log("ikkalasi ham teng yaqin")
+}
+}else if(e>c){
+  console.log(e + " soni 5ga yaqinroq")
+}else{
+  console.log(c + " soni 5ga yaqinroq")
+}
 
 
