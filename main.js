@@ -29,8 +29,8 @@ if (e % 3 == 0) {
 } else {
     console.log('e soni 3ga va 5ga bolinmaydi');
 }
-if (b % 5 == 0) {
-    if (b % 3 == 0) {
+if (e % 5 == 0) {
+    if (e % 3 == 0) {
         console.log('e soni 3ga va 5ga bolinadi');
     } else {
         console.log('e soni 5ga bolinadi 3ga bolinmaydi');
